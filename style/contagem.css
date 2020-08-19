@@ -1,0 +1,99 @@
+* {margin: 0; padding: 0;}
+::selection{
+    background: #a88a26;
+    color: #fff;
+}
+body {
+    font-family: 'Architects Daughter', Helvetica, sans-serif, Franklin Gothic Medium;
+    font-size: 1.1vw;
+}
+
+/* 
+    Cabeçalho
+*/
+header{
+    text-align: center;
+}
+
+/* 
+    Conteúdo principal
+*/
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0;
+    background: linear-gradient(#5c5959, #a8a8a5);
+    box-shadow: 12px 8px 3px #504f4f;
+    padding: 200px;
+    margin: 100px 395px;
+    border-radius: 2rem 1rem;
+}
+h1, h3 {
+    margin-top: 35px;
+}
+h3 {
+    color: #fff;
+    position: absolute;
+    top: 1px;
+    border-bottom: 2px solid white;
+}
+#show-screen {
+    padding: 100px;
+    background: #fff;
+    margin-top: 10px;
+}
+main h3+p {
+    color: #fff;
+    font-size: 1vw;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr;
+}
+#input-number {
+    border: 0;
+    margin-bottom: 15px;
+    padding: 3px;
+    font-weight: 700;
+    background: none;
+    color: #a88a26;
+    border-bottom: 2px solid #dad0d0;
+    outline: none;
+}
+/* Vai tirar as setas do input */
+#input-number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+button {
+    position: relative;
+    top: 32px;
+    margin: 15px 0;
+    font-size: 1vw;
+    font-family: 'Architects Daughter', Helvetica, sans-serif, Franklin Gothic Medium;
+    border-radius: 2rem 1rem;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    background: #a88a26;
+    transition: background .2s;
+    color: #fff;
+    outline: none;
+}
+button:hover {
+    background: #96885b;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* 
+    Rodapé
+*/
+footer {
+    background: #606060;
+    color: #fff;
+    padding: 150px;
+    margin-top: 160px;
+    text-align: center;
+}

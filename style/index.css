@@ -1,0 +1,119 @@
+* {margin: 0; padding: 0;}
+::selection {
+    background: #505000;
+    color: #fff;
+}
+footer .criador::after {
+    content: ".";
+    font-size: 32px;
+}
+
+/* 
+    Corpo
+*/
+body {
+    font-size: 1.1vw;
+    font-family: 'Pangolin', Helvetica, sans-serif, 'Courier New';
+}
+
+/* 
+    Cabeçalho
+*/
+header {
+    font-weight: 100;
+    text-shadow: 7px 5px 3px #606060;
+    color: #302f2f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    font-size: 1.2vw;
+}
+header:hover {
+    text-shadow: 5px 3px 1px #383737;
+}
+
+/* 
+    Conteúdo principal
+*/
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background: #606060;
+    color: #fff;
+    transition: opacity .2s;
+    padding: 140px 0;
+    margin: 55px 430px;
+    box-shadow: 15px 10px 3px #606066;
+    border-radius: 3rem 2rem;
+}
+main:hover {
+    box-shadow: 12px 7px 3px #606060;
+    background: #4d4b4b;
+    opacity: .9;
+    transform: translateY(-2px);
+}
+.num-input {
+    padding: 3px;
+    font-weight: 100;
+    font-size: 1.1vw;
+    color: #fff;
+    background: none;
+    outline: none;
+    border: 0;
+    border-bottom: 3px solid #333131;
+    margin: 0 42px;
+}
+/* Vai tirar a setinha do input */
+.num-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+button {
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    background: #909090;
+    color: #fff;
+    font-family: 'Pangolin', Helvetica, sans-serif, 'Courier New';
+    padding: 7px 12px;
+    font-size: 1vw;
+    margin: 0 22px;
+    border: 0;
+    border-radius: 2rem 1rem;
+}
+.show-screen {
+    color: #000;
+    font-weight: 100;
+    background: #f1f2f1;
+    padding: 92px 10px;
+    margin-right: 22px;
+    outline: none;
+}
+
+
+/* 
+    Rodape
+*/
+footer {
+    background: linear-gradient(#302f2f, #606060, #909090);
+    color: #f1f1f1;
+    padding: 160px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+}
+footer p {
+    margin: 12px 0;
+}
+.margin {
+    margin: 0 20px;
+}
+.border {
+    border-right: 2px solid #f1f1f1;
+}
+.fab {
+    color: #f1f1f1;
+    font-size: 1vw;
+}
