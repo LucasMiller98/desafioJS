@@ -104,6 +104,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2fr;
+    width: 100%;
 }
 footer p {
     margin: 12px 0;
