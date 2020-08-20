@@ -64,7 +64,8 @@ main:hover {
     outline: none;
     border: 0;
     border-bottom: 3px solid #333131;
-    margin: 0 42px;
+    margin-left: 42px;
+    margin-right: 10px;
 }
 /* Vai tirar a setinha do input */
 .num-input::-webkit-inner-spin-button {
@@ -79,7 +80,7 @@ button {
     font-family: 'Pangolin', Helvetica, sans-serif, 'Courier New';
     padding: 7px 12px;
     font-size: 1vw;
-    margin: 0 22px;
+    margin-left: 32px;
     border: 0;
     border-radius: 2rem 1rem;
 }

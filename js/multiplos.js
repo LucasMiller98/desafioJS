@@ -21,6 +21,7 @@ function iniciaPrograma() {
             error.style.background = '#f00'
             error.style.color = '#fff'
             error.style.fontSize = '1vw'
+            error.style.width = '20%'
             error.style.padding = '10px 50px'
             error.style.margin = '0 62px'
             error.style.border = '0'
@@ -29,18 +30,18 @@ function iniciaPrograma() {
             res.innerHTML = `Acesso negado\u{26A0}`
         }else{
             for(var contador = 1; contador <= 10; contador++) {
-                let create_op = document.createElement('option')
+                let create_p = document.createElement('p')
                 if(multiplo % 3 == 0) { 
-                    create_op.innerHTML += "Bora"
-                    res.appendChild(create_op)
+                    create_p.innerHTML += "Bora"
+                    res.appendChild(create_p)
                 }
                 if(multiplo % 5 == 0) {
-                    create_op.innerHTML += "Dale"
-                    res.appendChild(create_op)
+                    create_p.innerHTML += "Dale"
+                    res.appendChild(create_p)
                 }
                 if(multiplo % 3 == 0 && multiplo % 5 == 0) {
-                    create_op.innerHTML += "Javascript"
-                    res.appendChild(create_op)
+                    create_p.innerHTML += "Javascript"
+                    res.appendChild(create_p)
                 }
                 if(multiplo % 3 != 0 && multiplo % 5 != 0) {
                     error.style.width = '72%'

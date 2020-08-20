@@ -61,6 +61,7 @@ main h3+p {
     color: #a88a26;
     border-bottom: 2px solid #dad0d0;
     outline: none;
+    font-size: 1.1vw;
 }
 /* Vai tirar as setas do input */
 #input-number::-webkit-inner-spin-button {
@@ -68,7 +69,7 @@ main h3+p {
 }
 button {
     position: relative;
-    top: 32px;
+    top: 18px;
     margin: 15px 0;
     font-size: 1vw;
     font-family: 'Architects Daughter', Helvetica, sans-serif, Franklin Gothic Medium;

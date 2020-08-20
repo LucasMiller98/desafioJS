@@ -59,6 +59,8 @@ function iniciaPrograma() {
             error.style.margin = '50px 62px'
             error.style.border = '0'
             error.style.borderRadius = '2rem 1rem'
+            error.style.width = '55%'
+            res.innerHTML = 'Acesso negado\u{26A0}'
             error.innerHTML = `ERRO no sistema. \u{26A0}`
         }
     }
